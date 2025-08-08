@@ -13,7 +13,7 @@ export default function Hero({ title, subtitle, buttonText, buttonHref = "#conte
   return (
     <section className="relative w-full min-h-[70vh] flex items-center justify-center overflow-hidden py-16 md:py-32 lg:py-40">
       {/* Enhanced Background with Subtle Animation */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-green-600 to-blue-600">
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-green-600 to-orange-400">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1)_0%,transparent_50%)] animate-pulse" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(255,255,255,0.05)_0%,transparent_50%)]" />
       </div>

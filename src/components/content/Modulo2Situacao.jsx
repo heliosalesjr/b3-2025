@@ -51,13 +51,13 @@ const Modulo2Situacao = () => {
               transition={{ duration: 1 }}
             >
               <Image
-                src="/proj1.jpg"
+                src="/learning.jpg"
                 alt="Aprendizagem baseada em projetos"
                 fill
                 className="object-cover object-center"
                 priority
               />
-              <div className="absolute inset-0 bg-blue-500/20 z-10" />
+              <div className="absolute inset-0 bg-green-800/70 z-10" />
             </motion.div>
 
             <motion.div
@@ -69,7 +69,7 @@ const Modulo2Situacao = () => {
             >
               <div className="max-w-3xl">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                Roteiro para elaboração do PPDA e PDA
+                O que é o monitoramento pedagógico em Aprendizagem Baseada em Projetos
                 </h2>
                 
               </div>
@@ -82,7 +82,7 @@ const Modulo2Situacao = () => {
       <AnimatePresence>
         {expanded && (
           <motion.div
-            className="absolute inset-0 z-20 flex items-center justify-center px-6 text-center text-white bg-blue-500"
+            className="absolute inset-0 z-20 flex items-center justify-center px-6 text-center text-white bg-green-600"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
@@ -91,7 +91,7 @@ const Modulo2Situacao = () => {
             <div className="max-w-3xl">
 
               <p className="text-base md:text-lg font-medium text-white pb-8">
-                Como vimos no módulo 1, o programa de educação financeira Aprendendo a Lidar com dinheiro, propõe que os(as) educadores(as) trabalhem os conteúdos do Livro do Estudante por meio da Aprendizagem Baseada em Projetos, realizando atividades de curta duração que são chamados de PEQUENOS PROJETOS DIDÁTICOS ATIVOS (PPDAs) e objetivando desenvolver o protagonismo dos estudantes e potencializar o aprendizado, o desenvolvimento de habilidades e a percepção da importância do tema para suas vidas.
+                No contexto da Aprendizagem Baseada em Projetos (ABP), o monitoramento pedagógico vai muito além de uma simples verificação de tarefas. Ele é um processo contínuo de observação, registro e análise do desenvolvimento dos estudantes e do próprio projeto, com o objetivo de identificar avanços, desafios e necessidades de ajuste. É a bússola que orienta o educador e os alunos no percurso da aprendizagem.
               </p>
               
             </div>

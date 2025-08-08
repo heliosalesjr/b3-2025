@@ -38,12 +38,8 @@ const PageApresentacao1 = () => {
           </div>
           
           <p className="text-slate-700 text-lg leading-relaxed">
-            Este curso sobre a aplicação da Coleção{' '}
-            <span className="italic font-semibold text-slate-800">Aprendendo a Lidar com Dinheiro</span>{' '}
-            integra as ações de acompanhamento pedagógico promovidas pela{' '}
-            <span className="font-semibold">BEĨ Educação</span>, voltadas aos educadores 
-            e às educadoras da Secretaria de Estado de Educação de Mato Grosso que lecionam 
-            Matemática para turmas do 6º ao 8º ano do Ensino Fundamental e da 1ª série do Ensino Médio.
+            Nos Módulos 1 e 2 desta trilha formativa, mergulhamos na essência do programa "Aprendendo a Lidar com Dinheiro" da BEĨ Educação, compreendendo sua metodologia baseada em Projetos e as ferramentas essenciais para o planejamento de aulas, como o PPDA/PDA, SMART e 5W2H. Agora, no Módulo 3, daremos um passo fundamental: como garantir que todo esse planejamento e esforço se traduzam em aprendizagem efetiva para nossos estudantes?
+
           </p>
           
           <p className="text-slate-700 text-lg leading-relaxed">
