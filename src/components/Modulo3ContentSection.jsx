@@ -1,7 +1,7 @@
 import FadeInWhenVisible from "./FadeInWhenVisible"
 
 import Modulo3Objetivos from "./content/Modulo3Objetivos"
-import Modulo2Situacao from "./content/Modulo2Situacao"
+import Modulo2Situacao from "./content/MoniMoni"
 import Modulo2Content from "./content/Modulo2Content"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -14,7 +14,7 @@ import PageApresentacao2 from "./content/PageApresentacao2"
 import PageApresentacao3 from "./content/PageApresentacao3"
 import PageApresentacao4 from "./content/PageApresentacao4"
 
-export default function Modulo2ContentSection() {
+export default function Modulo3ContentSection() {
     return (
       <section id="content" className="w-full py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
@@ -32,19 +32,9 @@ export default function Modulo2ContentSection() {
                 <FadeInWhenVisible>
                   <PageApresentacao2 />
                 </FadeInWhenVisible>
-                <FadeInWhenVisible>
-                  <Modulo2Situacao />
-                </FadeInWhenVisible>
-
-                <FadeInWhenVisible>
-                  <Modulo2Passo />
-                </FadeInWhenVisible>
-
-                <FadeInWhenVisible>
-                  <Modulo2Content />
-                </FadeInWhenVisible>
                 
-                <Modulo2PPDA />
+
+                
                 
                 
                 

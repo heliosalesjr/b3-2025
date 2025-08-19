@@ -7,7 +7,7 @@ import { useSidebar } from '@/contexts/SidebarContext';
 import { FaPlus, FaArrowLeft } from 'react-icons/fa'
 import { motion, AnimatePresence } from 'framer-motion'
 
-const Modulo2Situacao = () => {
+const MoniMoni = () => {
 
   const ref = useRef();
   const { markAsViewed } = useSidebar();
@@ -113,6 +113,6 @@ const Modulo2Situacao = () => {
   )
 }
 
-export default Modulo2Situacao
+export default MoniMoni
 
 

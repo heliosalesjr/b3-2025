@@ -2,19 +2,20 @@ import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import Footer from "@/components/Footer"
 import ProgressBar from "@/components/ProgressBar"
-import SmartContentSection from "@/components/SmartContentSection"
+import MonitoramentoContentSection from "@/components/MonitoramentoContentSection"
 
-export default function Smart() {
+export default function Monitoramento() {
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
       <ProgressBar />
       <main >
         <Hero
-                title="Ferramentas SMART"
+                title="Monitoramento"
                 subtitle="Como funciona o programa “Aprendendo a lidar com dinheiro” da BEĨ Educação e a metodologia de aplicação do material"
                 />
-        <SmartContentSection />
+       
+        <MonitoramentoContentSection />
       </main>
       <Footer />
     </div>

@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import Footer from "@/components/Footer"
 import ProgressBar from "@/components/ProgressBar"
-import Modulo2ContentSection from "@/components/Modulo2ContentSection"
+import Modulo2ContentSection from "@/components/Modulo3ContentSection"
 
 
 export default function Modulo2() {
