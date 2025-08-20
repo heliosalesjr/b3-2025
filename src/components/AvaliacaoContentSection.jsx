@@ -3,8 +3,6 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import FadeInWhenVisible from "./FadeInWhenVisible"
 
-import WhIntro from "./content/WhIntro"
-import WhGame from "./content/WhGame"
 
 
 export default function AvaliacaoContentSection() {
@@ -13,9 +11,9 @@ export default function AvaliacaoContentSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-5xl space-y-8">
           
-            <WhIntro />
+            
             <FadeInWhenVisible>
-              <WhGame />
+             
             </FadeInWhenVisible>
 
           <div className="flex justify-center mt-8">

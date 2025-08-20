@@ -5,6 +5,10 @@ import FadeInWhenVisible from "./FadeInWhenVisible"
 
 import MatrizSmart from './content/MatrizSmart'
 import SmartQuiz from './content/SmartQuiz'
+import MetAvaIntro from './content/MetAvaIntro'
+import MetAvErro from './content/MetAvErro'
+import MetAvaTipos from './content/MetAvaTipos'
+import MetAvaAt from './content/MetAvaAt'
 
 
 const MAContentSection = () => {
@@ -13,11 +17,16 @@ const MAContentSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-5xl space-y-8">
           <FadeInWhenVisible>
-            <MatrizSmart />
+            <MetAvaIntro />
           </FadeInWhenVisible>
-
           <FadeInWhenVisible>
-            <SmartQuiz />
+            <MetAvErro />
+          </FadeInWhenVisible>
+          <FadeInWhenVisible>
+            <MetAvaTipos />
+          </FadeInWhenVisible>
+          <FadeInWhenVisible>
+            <MetAvaAt />
           </FadeInWhenVisible>
           {/* Next Page Button */}
           <div className="flex justify-center mt-8">

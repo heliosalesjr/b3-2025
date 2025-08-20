@@ -11,7 +11,7 @@ export default function Smart() {
       <ProgressBar />
       <main >
         <Hero
-                title="Ferramentas SMART"
+                title="Métodos Avaliativos"
                 subtitle="Como funciona o programa “Aprendendo a lidar com dinheiro” da BEĨ Educação e a metodologia de aplicação do material"
                 />
         <MAContentSection />
