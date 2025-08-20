@@ -82,7 +82,7 @@ const MetAvaAt = () => {
 
       {/* Mensagem de reflexão */}
       <div className="text-center">
-        <div className="inline-block bg-gradient-to-r from-blue-100 to-green-100 rounded-full px-8 py-4 shadow-lg border border-blue-200">
+        <div className="inline-block bg-gradient-to-r from-blue-100/50 to-green-100/50 rounded-full px-8 py-4 shadow-lg border border-blue-200">
           <p className="text-lg font-semibold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
             💭 Momento de Reflexão e Planejamento
           </p>
