@@ -2,6 +2,9 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import FadeInWhenVisible from "./FadeInWhenVisible"
+import AvaIntro from "./content/AvaIntro"
+import AvaRubrica from "./content/AvaRubrica"
+import AvaBeneficios from "./content/AvaBeneficios"
 
 
 
@@ -13,7 +16,13 @@ export default function AvaliacaoContentSection() {
           
             
             <FadeInWhenVisible>
-             
+             <AvaIntro />
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <AvaRubrica />
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <AvaBeneficios />
             </FadeInWhenVisible>
 
           <div className="flex justify-center mt-8">
