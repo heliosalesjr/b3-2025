@@ -2,7 +2,7 @@
 
 import FadeInWhenVisible from "./FadeInWhenVisible"
 import EncerramentoIntro from "./content/EncerramentoIntro"
-import EncerramentoAprendi from "./content/EncerramentoAprendi"
+import EncerramentoQuiz from "./content/EncerramentoQuiz"
 
 export default function EncerramentoContentSection() {
     return (
@@ -19,7 +19,7 @@ export default function EncerramentoContentSection() {
           
      
             <FadeInWhenVisible>
-              <EncerramentoAprendi />
+              <EncerramentoQuiz />
             </FadeInWhenVisible>
             
           </div>
