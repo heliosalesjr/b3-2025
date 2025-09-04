@@ -8,34 +8,40 @@ const navigation = {
     path: '/',
     components: [
       { id: 'apresentacao-1', title: 'Apresentação do Curso' },
-      { id: 'modulo-2-objetivos', title: 'Objetivos do Módulo 2' },
-      { id: 'modulo-2-roteiro', title: 'Roteiro do PPDA' },
-      { id: 'modulo-2-passo', title: 'Passo a Passo' },
-      { id: 'modulo-2-ppda', title: 'Como Elaborar o Roteiro' },
-      { id: 'modulo-2-modelo', title: 'Modelo de PPDA' },
-    ]
-  },
-  'Matriz de Habilidades': {
-    path: '/matriz',
-    components: [
-      { id: 'matriz-intro', title: 'Matriz de Habilidades' },
+      { id: 'modulo-3-objetivos', title: 'Objetivos do Módulo 3' },
+      { id: 'ao-final', title: 'Ao final do módulo...' },
       
     ]
   },
-  'Ferramentas Smart': {
-    path: '/smart',
+  'Monitoramento': {
+    path: '/monitoramento',
     components: [
-      { id: 'modulo-2-smart', title: 'Matriz SMART' },
-      { id: 'quiz-smart', title: 'Teste seus conhecimentos' },
+      { id: 'o-que-e', title: 'O que é?' },
+      { id: 'aspectos', title: 'Aspectos principais' },
+      { id: 'monitoramento-ppda', title: 'Monitoramento e o PPDA' },
+      
+    ]
+  },
+  'Métodos Avaliativos': {
+    path: '/metodosavaliativos',
+    components: [
+      { id: 'ma-intro', title: 'Métodos Avaliativos - Introdução' },
+      { id: 'importancia-erro', title: 'A importância do erro' },
+      { id: 'tipos-avaliacao', title: 'Tipos de avaliação' },
+      { id: 'atividade-pratica', title: 'Atividade prática' },
+      
       
        
     ]
   },
-  'Ferramentas 5WH2': {
-    path: '/5wh2',
+  'Avaliação': {
+    path: '/avaliacao',
     components: [
-      { id: 'ferramentas-5w2h', title: 'Ferramenta 5W2H' },
-      { id: 'ferramentas-5w2h-quiz', title: 'Teste seus conhecimentos!' },
+      { id: 'avaliacao-intro', title: 'Introdução' },
+      { id: 'avaliacao-rubrica', title: 'Rubricas' },
+      { id: 'avaliacao-beneficios', title: 'Benefícios' },
+      
+      
 
     ]
   },
@@ -43,8 +49,8 @@ const navigation = {
   'Encerramento': {
     path: '/encerramento',
     components: [
-      { id: 'encerramento-intro', title: 'Encerrando o Módulo 2' },
-      { id: 'encerramento-aprendi', title: 'O que aprendemos?' },
+      { id: 'encerramento-intro', title: 'Encerrando o Módulo 3' },
+      { id: 'encerramento-quiz', title: 'Teste seus conhecimentos!' },
     ]
   },
 };

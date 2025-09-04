@@ -23,7 +23,7 @@ export default function Monitoramento() {
             
             <div className="flex justify-center mt-8">
               <Button asChild>
-                <Link href="/smart">Próxima Página: Ferramenta SMART</Link>
+                <Link href="/metodosavaliativos">Próxima Página: Métodos Avaliativos</Link>
               </Button>
             </div>
           </div>

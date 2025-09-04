@@ -13,7 +13,7 @@ export default function Navbar() {
   const pathname = usePathname()
 
   const navLinks = [
-    { name: "Móludo 3", href: "/" },
+    { name: "Módulo 3", href: "/" },
     
     { name: "Monitoramento", href: "/monitoramento" },
     { name: "Métodos Avaliativos", href: "/metodosavaliativos" },

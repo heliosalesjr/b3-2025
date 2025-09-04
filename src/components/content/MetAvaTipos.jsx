@@ -6,30 +6,27 @@ import { FaSearch, FaRoute, FaTrophy, FaUsers, FaComments, FaClipboardList, FaBo
 
 const MetAvaTipos = () => {
   const ref = useRef();
-  const { markAsViewed } = useSidebar();
+    const { markAsViewed } = useSidebar();
+  
+    useEffect(() => {
+      if (!ref.current) return;
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
+      const observer = new IntersectionObserver(([entry]) => {
         if (entry.isIntersecting) {
-          markAsViewed('tipos-avaliacao');
+          markAsViewed("tipos-avaliacao");
         }
-      },
-      { threshold: 0.5 }
-    );
+      }, { threshold: 0.5 });
 
-    if (ref.current) {
       observer.observe(ref.current);
-    }
 
-    return () => observer.disconnect();
-  }, [markAsViewed]);
+      return () => observer.disconnect();
+    }, [markAsViewed, ref.current]);
 
   return (
-    <div ref={ref} id="tipos-avaliacao" className="scroll-mt-20 rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100 space-y-12">
+    <div  className=" rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100 space-y-12">
       
       {/* Título Principal */}
-      <div className="text-center space-y-6">
+      <div ref={ref} id="tipos-avaliacao" className="scroll-mt-20 text-center space-y-6">
         <div className="flex items-center justify-center gap-3">
           <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-blue-500 rounded-full"></div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">

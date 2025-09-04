@@ -16,7 +16,7 @@ const MoniMoni = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          markAsViewed('modulo-2-roteiro');
+          markAsViewed('o-que-e');
         }
       },
       { threshold: 0.5 }
@@ -34,7 +34,7 @@ const MoniMoni = () => {
   return (
     <motion.div
       ref={ref} 
-      id="modulo-2-roteiro"
+      id="o-que-e"
       layout
       className="scroll-mt-20 relative w-full h-[70vh] rounded-2xl overflow-hidden shadow-2xl"
       transition={{ duration: 1.2 }}

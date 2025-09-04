@@ -200,7 +200,7 @@ export default function EncerramentoQuiz() {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          markAsViewed("quiz-abp-monitoring");
+          markAsViewed("encerramento-quiz");
         }
       },
       { threshold: 0.5 }
@@ -249,11 +249,11 @@ export default function EncerramentoQuiz() {
 
   return (
     <div
-      ref={ref}
-      id="quiz-abp-monitoring"
-      className="scroll-mt-20 rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100"
+      
+      className=" rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100"
     >
-      <div className="flex items-center justify-center gap-3 mb-8">
+      <div ref={ref}
+            id="encerramento-quiz" className="scroll-mt-20 flex items-center justify-center gap-3 mb-8">
         <div className="w-1 h-12 bg-gradient-to-b from-blue-500 to-green-500 rounded-full" />
         <h2 className="text-3xl font-bold text-center text-slate-700">
           Quiz: Monitoramento Pedagógico na ABP

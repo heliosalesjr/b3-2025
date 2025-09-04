@@ -3,8 +3,6 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import FadeInWhenVisible from "./FadeInWhenVisible"
 
-import MatrizSmart from './content/MatrizSmart'
-import SmartQuiz from './content/SmartQuiz'
 import MetAvaIntro from './content/MetAvaIntro'
 import MetAvErro from './content/MetAvErro'
 import MetAvaTipos from './content/MetAvaTipos'
@@ -31,7 +29,7 @@ const MAContentSection = () => {
           {/* Next Page Button */}
           <div className="flex justify-center mt-8">
             <Button asChild>
-              <Link href="/5wh2">Próxima Página: Ferramenta 5W2H</Link>
+              <Link href="/avaliacao">Próxima Página: Avaliação</Link>
             </Button>
           </div>
         </div>

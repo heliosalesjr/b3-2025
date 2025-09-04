@@ -11,7 +11,7 @@ export default function Modulo4() {
       <ProgressBar />
       <main >
         <Hero
-                title="Ferramenta 5W2H"
+                title="Avaliação"
                 subtitle="Como funciona o programa “Aprendendo a lidar com dinheiro” da BEĨ Educação e a metodologia de aplicação do material"
                 />
         

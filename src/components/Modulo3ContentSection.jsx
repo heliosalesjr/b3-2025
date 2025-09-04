@@ -1,18 +1,15 @@
 import FadeInWhenVisible from "./FadeInWhenVisible"
 
 import Modulo3Objetivos from "./content/Modulo3Objetivos"
-import Modulo2Situacao from "./content/MoniMoni"
-import Modulo2Content from "./content/Modulo2Content"
+
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-import Modulo2Passo from "./content/Modulo2Passo"
 import PageApresentacao1 from "./content/PageApresentacao1"
-import Modulo2PPDA from "./content/Modulo2PPDA"
+
 
 import PageApresentacao2 from "./content/PageApresentacao2"
-import PageApresentacao3 from "./content/PageApresentacao3"
-import PageApresentacao4 from "./content/PageApresentacao4"
+
 
 export default function Modulo3ContentSection() {
     return (
@@ -40,7 +37,7 @@ export default function Modulo3ContentSection() {
                 
                 <div className="flex justify-center mt-8">
                   <Button asChild>
-                    <Link href="/matriz">Próxima Página: Matriz de Habilidades</Link>
+                    <Link href="/monitoramento">Próxima Página: Monitoramento</Link>
                   </Button>
                 </div>
             

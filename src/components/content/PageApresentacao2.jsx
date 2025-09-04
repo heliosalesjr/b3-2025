@@ -12,7 +12,7 @@ const PageApresentacao2 = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          markAsViewed('apresentacao-2');
+          markAsViewed('ao-final');
         }
       },
       { threshold: 0.5 }
@@ -28,7 +28,7 @@ const PageApresentacao2 = () => {
   return (
     <div
       ref={ref}
-      id="apresentacao-2"
+      id="ao-final"
       className="scroll-mt-20 rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100"
     >
       <div className="grid gap-8 md:grid-cols-3 items-stretch">

@@ -12,7 +12,7 @@ const MoniDef = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          markAsViewed('introducao-monitoramento');
+          markAsViewed('aspectos');
         }
       },
       { threshold: 0.5 }
@@ -26,7 +26,7 @@ const MoniDef = () => {
   }, [markAsViewed]);
 
   return (
-    <div ref={ref} id="introducao-monitoramento" className="scroll-mt-20 rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100 space-y-12">
+    <div ref={ref} id="aspectos" className="scroll-mt-20 rounded-xl bg-gradient-to-br from-white to-slate-50 p-8 shadow-2xl border border-slate-100 space-y-12">
       
       {/* Título Principal */}
       <div className="text-center space-y-6">
